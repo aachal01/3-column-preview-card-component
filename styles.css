@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Rubik&display=swap');
+
+/* font-family: 'Big Shoulders Display', cursive; */
+/* font-family: 'Rubik', sans-serif; */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* smallest height it can go else add scroll */
+}
+
+p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-left: 40px;
+    padding-right: 50px;
+    padding-bottom: 70px;
+    line-height: 24px;
+}
+
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    padding-left: 40px;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+    font-size: 38px;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
+    background-color: hsl(0, 0%, 95%);
+    font-weight: 400;
+    margin-left: 40px;
+    padding: 14px 24px;
+    border-radius: 40px;
+}
+
+.all-cards{
+    display: flex;
+    width: 920px;
+    height: 500px;  
+}
+
+.card1{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0px 0px 10px;
+}
+
+.card2{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.card3{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 10px 10px 0px;
+}
+
+img{
+    padding: 50px 40px 40px 40px;
+}
+
+.c1{
+    color: hsl(31, 77%, 52%);
+}
+
+.c2{
+    color: hsl(184, 100%, 22%);
+}
+
+.c3{
+    color: hsl(179, 100%, 13%);
+}
+
+.c1:hover{
+    border: 1px solid hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+}
+
+.c2:hover{
+    border: 1px solid hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+}
+
+.c3:hover{
+    border: 1px solid hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+}
