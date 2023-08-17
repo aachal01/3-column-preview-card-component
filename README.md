@@ -38,9 +38,9 @@ This project provided hands-on experience with modern CSS techniques, reinforcin
 
 ## Preview
 
-![Project Preview](/3-column-preview-card-component/screenshots/desktop-design.jpg)
+![Project Preview](/screenshots/desktop-design.jpg)
 
 ## Live Demo
 
-You can see the live demo of this project [here](https://your-live-demo-link.com).
+You can see the live demo of this project [here](https://aachal01.github.io/3-column-preview-card-component/).
 
